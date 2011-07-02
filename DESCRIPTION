@@ -1,0 +1,9 @@
+Package: rpackager
+Title: Package and dependency management tools
+Version: 0.0
+Date: 2011-07-02
+Author: Noah Lorang
+Maintainer: Noah Lorang <noah@noahhl.com>
+Description: rpackager is a package and dependency management tool that supports versioned dependencies, installations from CRAN-style repositories or Git repositories, etc.
+Depends: yaml
+License: MIT

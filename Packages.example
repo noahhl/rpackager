@@ -1,0 +1,14 @@
+# Place your R package requirements in this file.
+# For specification options, see ?PackageFile.
+# Automatically generated package requirements from your project directory:
+
+source: http://cran.r-project.org
+
+pkg "RCurl"
+pkg "rjson"
+pkg "XML"
+pkg "Rack"
+pkg "yaml"
+pkg "rss"
+pkg "rGmail"
+pkg "rJython"
