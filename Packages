@@ -1,0 +1,15 @@
+# Place your R package requirements in this file.
+# For specification options, see ?PackageFile.
+
+source: http://cran.r-project.org
+
+pkg 'XML'
+pkg 'RCurl'
+pkg 'digest'
+pkg 'RJSONIO'
+pkg 'plyr'
+pkg 'yaml'
+pkg 'tm'
+pkg 'Rstem', cran => http://www.omegahat.org/R
+pkg 'oauth', git => git@github.com:noahhl/oauth.git
+pkg 'rAssistlyAPI', git => git@github.com:noahhl/rAssistlyAPI.git

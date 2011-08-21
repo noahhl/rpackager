@@ -1,0 +1,14 @@
+#! /usr/bin/Rscript --vanilla
+
+require("rpackager")
+
+action = tolower(c(commandArgs(T))[1])
+
+if(action == "install") {
+  Packager.Install()
+} else if(action == 'update') {
+  Packager.Update()
+} else if(action=='require') {
+  Packager.Require()
+}
+
